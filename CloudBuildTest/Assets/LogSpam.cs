@@ -18,7 +18,7 @@ public class LogSpam
     {
         string path = "Assets/text1mb.txt";
         string text = File.ReadAllText(path);
-        for (int i = 0; i < 16; i++)
+        for (int i = 0; i < 135; i++)
         {
             Debug.Log(text);
         }
